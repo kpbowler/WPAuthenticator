@@ -7,11 +7,13 @@
 
 /*
 Plugin Name: WPAuthenticator
-Plugin URI: https://kpbowler.co.uk
+Plugin URI: https://github.com/kpbowler/WPAuthenticator
 Description: Creates a one-time login link for members
 Author: K P Bowler
 Version: 1.0
 Author URI: https://kpbowler.co.uk
+License: GPLv2 or later”
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 
@@ -138,7 +140,7 @@ Please click on this link to log into the site:<br><br>".get_site_url().'/custom
 /**
  * Custom URL handler to catch the action set up in the email.
  * This function logs users in without a password, just by verifying the token.
- * @todo Possibly look to improve this by passing User ID to teh site as well.
+ * @todo Possibly look to improve this by passing User ID to the site as well.
  * @todo Make the URL customisable.
  */
 function wpauthenticator_url_handler() {
