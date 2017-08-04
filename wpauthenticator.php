@@ -82,6 +82,9 @@ function wpauthenticator_options() {
         }
     }
 
+    // Currently, only allow site admins to perform this action once, as this plugin emails all your users.
+    //  You don't want to do that too often!
+
     if(!get_option('wpauthenticator_email')) {
         echo '<div class="wrap">';
         echo '<form method="POST">';
