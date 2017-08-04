@@ -1,0 +1,2 @@
+=== WPAuthenticator ===
+Contributors: Kevin Bowler
